@@ -15,8 +15,17 @@ body {
 
 /* Class Selectors */
 
+.title-container {
+    width: 250px;
+    border-color: #514c72;
+    border-style: inset;
+    border-width: 10px;
+}
+
 .title {
     color: #dd9c10;
+    font-weight: bold;
+    text-align: center;
 }
 
 /* ID Selectors */
