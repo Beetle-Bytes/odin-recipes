@@ -13,6 +13,11 @@ body {
     margin-left: 2vh;
 }
 
+ul li {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
 /* Class Selectors */
 
 .title-container {
@@ -29,3 +34,5 @@ body {
 }
 
 /* ID Selectors */
+
+/* Mixed Combinator Selectors */
