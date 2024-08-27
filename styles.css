@@ -1,7 +1,11 @@
+/* Universal Selectors */
 * {
     color: #e7e3d7;
     font-family: Consolas, monospace;
 }
+
+/* Type Selectors */
+/* Undefined: h1, ul, li, a */
 
 body {
     background-color: #262433;
@@ -9,18 +13,10 @@ body {
     margin-left: 2vh;
 }
 
-ul {
-    
-}
-
-li {
-    margin: 16px;
-}
-
-a {
-
-}
+/* Class Selectors */
 
 .title {
-
+    color: #dd9c10;
 }
+
+/* ID Selectors */
