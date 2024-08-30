@@ -18,6 +18,7 @@ body {
 
 .title-container, .recipe-list-container {
     margin: 0 auto;
+    border-radius: 8px;
 }
 
 .title-container {
@@ -29,6 +30,7 @@ body {
     color: #dd9c10;
     font-weight: bold;
     text-align: center;
+    padding: 24px;
 }
 
 .recipe-list-container {
