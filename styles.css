@@ -21,13 +21,19 @@ img {
 /* Class Selectors */
 /* Undefined: .recipe-list-container, .recipe, .recipe-link*/
 
-.title-container {
-    width: 300px;
+.title-container, .recipe-card {
     background-color: #322a42;
 }
 
-.title {
+.title, .recipe-link, .section-header {
     color: #dd9c10;
+}
+
+.title-container {
+    width: 300px;
+}
+
+.title {
     font-weight: bold;
     text-align: center;
     padding: 24px;
@@ -42,15 +48,16 @@ img {
     margin: 24px auto;
 }
 
-.recipe-link {
-    color: #dd9c10
+.recipe-card {
+    width: 75vh;
+    padding: 12px 18px;
 }
 
 /* ID Selectors */
 
 /* Mixed Combinator Selectors */
 
-.title-container, .recipe-list-container, img {
-    margin: 0 auto;
+.title-container, .recipe-list-container, .recipe-card, img {
+    margin: 32px auto;
     border-radius: 8px;
 }
