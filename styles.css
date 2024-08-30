@@ -12,14 +12,14 @@ body {
     background-color: #262433;
     margin-top: 2vh;
 }
+img {
+    height: 80vh;
+    width: auto;
+    display: block;
+}
 
 /* Class Selectors */
 /* Undefined: .recipe-list-container, .recipe, .recipe-link*/
-
-.title-container, .recipe-list-container {
-    margin: 0 auto;
-    border-radius: 8px;
-}
 
 .title-container {
     width: 300px;
@@ -49,3 +49,8 @@ body {
 /* ID Selectors */
 
 /* Mixed Combinator Selectors */
+
+.title-container, .recipe-list-container, img {
+    margin: 0 auto;
+    border-radius: 8px;
+}
